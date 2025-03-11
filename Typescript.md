@@ -216,3 +216,44 @@ Mastering TypeScript means understanding:
 4. **Pros and Cons** → Weigh benefits against overhead.
 
 🚀 **Conclusion:** TypeScript enhances code quality, scalability, and maintainability, making it a valuable tool for modern JavaScript and React development.
+
+
+### **1. Basic Types**  
+- **`string`** → Represents text values.  
+- **`number`** → Used for integers and floating-point numbers.  
+- **`boolean`** → Holds `true` or `false` values.  
+- **`bigint`** → For large integers beyond `Number.MAX_SAFE_INTEGER`.  
+- **`symbol`** → Creates unique and immutable values.  
+- **`null`** → Represents an explicitly empty value.  
+- **`undefined`** → Represents an uninitialized value.  
+
+---
+
+### **2. Special Types**  
+- **`any`** → Disables type checking, allowing any value.  
+- **`unknown`** → Similar to `any`, but requires type checks before usage.  
+- **`void`** → Used for functions that don’t return a value.  
+- **`never`** → Represents values that never occur (e.g., errors or infinite loops).  
+
+---
+
+### **3. Object Types**  
+- **`object`** → Represents non-primitive values (objects, arrays, functions).  
+- **`Array<T>` / `T[]`** → Defines an array of elements of type `T`.  
+- **`Tuple`** → Fixed-length array with specific types in each position.  
+- **`Record<K, V>`** → Object with keys of type `K` and values of type `V`.  
+- **`readonly`** → Prevents modification of object properties or array elements.  
+
+---
+
+### **4. Advanced Types**  
+- **`union (A | B)`** → Allows multiple possible types for a value.  
+- **`intersection (A & B)`** → Combines multiple types into one.  
+- **`type`** → Defines a custom type alias.  
+- **`interface`** → Defines object structures with extendable properties.  
+- **`enum`** → Defines a set of named constant values.  
+- **`literal types`** → Restricts a value to specific predefined values (`"success" | "error"`).  
+- **`mapped types`** → Transforms object types dynamically (`Partial<T>`, `Readonly<T>`).  
+- **`conditional types`** → Defines types based on a condition (`T extends U ? X : Y`).  
+
+Would you like deeper examples for any of these? 🚀
