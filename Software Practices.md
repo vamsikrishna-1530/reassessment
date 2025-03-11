@@ -1,9 +1,11 @@
-Improving software engineering practices goes beyond code quality and includes aspects like technical debt management, testing strategies, and adherence to coding standards. Describe key techniques and tools that help improve software engineering practices, including:
+Improving software engineering practices goes beyond code quality and includes aspects like technical debt management, testing strategies, and adherence to coding standards. Describe key techniques and tools that help improve software engineering practices, including:  
 
-Code Standards and Reviews
-Technical Debt Management
-Comprehensive Testing Strategies (Test Pyramid)
-Best Practices for Unit Testing (F.I.R.S.T principles or similar)
+1. **Code Standards and Reviews**  
+2. **Technical Debt Management**  
+3. **Comprehensive Testing Strategies (Test Pyramid)**  
+4. **Best Practices for Unit Testing (F.I.R.S.T principles or similar)**  
+
+Provide explanations, pros, and cons for each.
 
 ### **1. Code Standards and Reviews in JavaScript & ReactJS**  
 
