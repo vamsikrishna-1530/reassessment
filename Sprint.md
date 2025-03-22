@@ -59,3 +59,68 @@ Exactly! The product backlog provides a long-term view of the product’s develo
 **Interviewer:** Thank you for being here today. During the Sprint, does the Sprint Goal cover 100% of all the tasks that are in the Sprint?
 
 **Candidate:** That's a great question. The Sprint Goal serves as a guiding objective for what the team aims to achieve during the Sprint. While it does encapsulate the primary focus and purpose of the Sprint, it doesn't necessarily cover every single task. There are often supplementary tasks and activities that support achieving the goal, such as bug fixes, technical improvements, or preparatory work for future Sprints, which might not be explicitly included in the Sprint Goal but are still essential for the overall workflow. Therefore, while the Sprint Goal defines the main target, it doesn't typically cover 100% of all tasks involved in the Sprint.
+
+
+# **Plan 2 Week Sprint**
+
+### Interviewer:
+Great, thank you for coming in today. Let's dive into a scenario question. Imagine you are leading a team and you have been asked to plan work for a two-week Sprint. You have a backlog of tasks. Can you walk me through what you would do and any best practices you would use for this process?
+
+### Candidate:
+Absolutely, I'd be happy to walk you through it.
+
+First and foremost, I would start with a Sprint Planning meeting with the entire team. This meeting allows us to determine what work items from the backlog we can commit to for the upcoming Sprint. Here’s how I would approach it:
+
+1. **Reviewing the Backlog:**
+   - **Prioritize:** Ensure that the backlog is prioritized by the Product Owner. The most critical tasks that deliver the highest value should be at the top.
+   - **Refinement:** Make sure that all items in the backlog are well-defined, with clear acceptance criteria. Any ambiguous or too-large tasks would need refinement, either before or during the Sprint Planning meeting.
+
+2. **Capacity Planning:**
+   - **Assess Team Availability:** Understand the availability of each team member, taking into account any planned time off, meetings, or other commitments.
+   - **Velocity:** Look at the team's historical velocity, which is the amount of work successfully completed in previous Sprints, to provide a guideline for how much work can realistically be taken on.
+
+3. **Task Selection:**
+   - **Team Involvement:** Engage the team in selecting the tasks they feel comfortable committing to. This promotes a sense of ownership and increases the likelihood of meeting Sprint goals.
+   - **Estimating Tasks:** Use a consistent method for estimating task size, such as Story Points, and ensure all tasks are appropriately estimated.
+
+4. **Task Breakdown:**
+   - For larger user stories or tasks, break them down into smaller, more manageable sub-tasks. This helps keep track of progress without getting overwhelmed by the size of tasks.
+   
+5. **Creating a Sprint Goal:**
+   - Define a clear and concise Sprint Goal that represents the main objective of the Sprint. This helps the team stay focused on what is most important.
+
+6. **Assigning Tasks:**
+   - While team members may choose their tasks based on expertise or interest, I’d ensure that task assignments are balanced to avoid overloading any one individual.
+   
+7. **Monitoring Progress:**
+   - Implement daily stand-up meetings to discuss progress, identify any blockers, and make any necessary adjustments.
+   - Use project management tools (like JIRA, Trello, etc.) to visualize the work and track progress.
+
+8. **Review and Retrospect:**
+   - At the end of the Sprint, conduct a Sprint Review to demonstrate what has been completed and gather feedback.
+   - Hold a Sprint Retrospective to discuss what went well, what didn’t, and how we can improve in the next Sprint.
+
+### Interviewer:
+That’s a thorough and well-structured approach. How would you handle any unexpected issues that come up during the Sprint?
+
+### Candidate:
+Unexpected issues are bound to occur, and being adaptable is key. Here’s how I’d handle them:
+
+1. **Immediate Response:**
+   - **Identify Blockers:** In daily stand-ups, I’d ensure that any blockers are immediately discussed and assigned for resolution.
+   - **Communicate:** I would maintain open lines of communication with the Product Owner and stakeholders about any significant issues that might affect the Sprint Goal.
+
+2. **Prioritize and Adjust:**
+   - Re-assess the remaining tasks and their priorities. If necessary, I’d reallocate resources to ensure that the highest priority tasks are still completed.
+   - Consider whether scope adjustments are necessary. Sometimes, deprioritizing less critical tasks can be an effective way to manage time and resources.
+
+3. **Support and Resources:**
+   - Provide any necessary support to team members, whether that's in the form of additional resources, advice, or help from other team members.
+
+4. **Document and Learn:**
+   - Document any issues and responses taken, using them as learning points to prepare for and mitigate similar issues in the future.
+
+This way, we stay flexible and resilient, ensuring that despite unforeseen issues, we can still deliver valuable outcomes.
+
+### Interviewer:
+Excellent, it sounds like you have a solid strategy for both planning and dealing with unexpected challenges. Thank you for your thorough answers.
