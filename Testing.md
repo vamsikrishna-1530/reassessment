@@ -50,7 +50,7 @@ The **Testing Pyramid** is a strategy to balance different types of tests for be
 ✔ **Use E2E testing selectively for critical user flows** (avoid too many, as they are slow).  
 ✔ **Automate testing in CI/CD pipelines** to catch issues early.  
 
-**Interviewer:** Can you explain the AAA pattern in unit testing?
+# **AAA pattern in unit testing?**
 
 **Candidate:** Sure! The AAA pattern stands for Arrange, Act, and Assert. It is a common pattern used in writing unit tests to make them more readable and maintainable. It breaks down the test into three distinct sections:
 
