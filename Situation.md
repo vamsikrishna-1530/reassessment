@@ -34,7 +34,7 @@ Each of these strategies can be tailored to fit the unique needs of the team and
 This answer not only lists various strategies but also explains their significance and potential impact, demonstrating the candidate's thorough understanding of motivational techniques.
 
 
-**Team Motivation:**
+# **Team Motivation:**
 
 As an interviewer, it's important to look for how the candidate understands the dynamics of team motivation and their approach to maintaining it. Here’s an example of how you might frame your question and what you might be looking for:
 
