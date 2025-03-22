@@ -1,4 +1,4 @@
-# ** Sprint Goals**
+# **Sprint Goals**
 
 **Interviewer:** Thank you for being here today. During the Sprint, does the Sprint Goal cover 100% of all the tasks that are in the Sprint?
 
