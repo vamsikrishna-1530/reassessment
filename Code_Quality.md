@@ -78,7 +78,7 @@ Ensuring code quality in a React application and throughout the CI/CD pipeline i
 - **Overall:**  
   A well-structured CI/CD pipeline that includes robust testing and code analysis ensures that only high-quality code reaches production, thereby reducing bugs and improving maintainability and performance.
 
-### Interviewer
+#Interviewer
 
 Could you explain your thoughts on the relationship between achieving 100% code coverage and the overall quality and reliability of a project? Is it fair to say that if we have 100% code coverage, our code is of great quality and will work without any issues?
 
