@@ -26,6 +26,31 @@
 These interactions help maintain transparency, foster collaboration, and ensure that the team remains focused on delivering value.
 
 
+# **Backlog**
+
+### Interviewer:
+Can you explain the difference between a product backlog and a sprint backlog in simple terms?
+
+### Candidate:
+Sure, I'd be happy to explain this in simple terms.
+
+1. **Product Backlog:**
+   - **What It Is:** The product backlog is a prioritized list of everything that needs to be done to improve or complete the product. Think of it as a big to-do list for the entire project.
+   - **Contents:** It contains user stories, features, bug fixes, technical tasks, and any other requirements for the product.
+   - **Ownership:** This list is typically owned and managed by the Product Owner, who continuously updates it based on changing needs and priorities.
+
+2. **Sprint Backlog:**
+   - **What It Is:** The sprint backlog is a subset of the product backlog. It consists of the items that the team commits to completing during the upcoming Sprint, which is usually a 1-4 week period.
+   - **Contents:** It contains specific tasks and user stories pulled from the product backlog, broken down into smaller, actionable chunks that can be completed within the Sprint.
+   - **Ownership:** The development team owns the sprint backlog. They select the items from the product backlog during the Sprint Planning meeting and then manage and update it throughout the Sprint.
+
+### Interviewer:
+That’s a clear explanation. So in short, the product backlog is the master list of all desired work for the product, while the sprint backlog is the list of work the team commits to complete during a specific Sprint.
+
+### Candidate:
+Exactly! The product backlog provides a long-term view of the product’s development, while the sprint backlog focuses on the immediate, actionable work for the current Sprint.
+
+
 
 
 
