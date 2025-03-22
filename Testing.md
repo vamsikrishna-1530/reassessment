@@ -87,3 +87,23 @@ In this example:
 **Interviewer:** Good explanation! Why is it important to follow the AAA pattern in unit testing?
 
 **Candidate:** Following the AAA pattern in unit testing provides a clear and consistent structure to tests, which makes them easier to read and understand. It helps developers quickly grasp what the test is doing, what conditions are set up, and what is being verified. It also encourages separation of concerns, ensuring that setup, execution, and validation are handled in distinct steps. This can help in maintaining the tests and diagnosing issues when they arise.
+
+
+# **Mocking and Stubbing in the context of testing?
+
+**Candidate:**
+Certainly! Both mocking and stubbing are test-double techniques used in unit testing to isolate the code being tested and control its dependencies. Here is a simple differentiation between the two:
+
+1. **Stubbing:**
+    - **Purpose:** Stubs are used to provide predetermined responses to method calls made during the test.
+    - **Behavior:** They don't verify any behavior, but they help in testing the code by returning expected results.
+    - **Example:** If you have a function that calls an external API, you can stub the API call to return a fixed response without actually making the network request.
+
+2. **Mocking:**
+    - **Purpose:** Mocks are used to verify how many times an interaction happens, the exact methods that were called, and the arguments that were passed.
+    - **Behavior:** They not only simulate the behavior but also allow you to set expectations and then verify those expectations.
+    - **Example:** If you want to ensure a function is called with certain parameters when testing, you would use a mock to verify that the exact call was made with the expected arguments.
+
+In summary, stubs are focused on providing fixed data whereas mocks are used to test the behavior and interactions within the code.
+
+Would you like more detail on either of these concepts?
