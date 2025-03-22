@@ -89,7 +89,7 @@ In this example:
 **Candidate:** Following the AAA pattern in unit testing provides a clear and consistent structure to tests, which makes them easier to read and understand. It helps developers quickly grasp what the test is doing, what conditions are set up, and what is being verified. It also encourages separation of concerns, ensuring that setup, execution, and validation are handled in distinct steps. This can help in maintaining the tests and diagnosing issues when they arise.
 
 
-# **Mocking and Stubbing in the context of testing?
+# **Mocking and Stubbing in the context of testing?**
 
 **Candidate:**
 Certainly! Both mocking and stubbing are test-double techniques used in unit testing to isolate the code being tested and control its dependencies. Here is a simple differentiation between the two:
