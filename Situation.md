@@ -67,3 +67,27 @@ I also envision myself spearheading initiatives to improve our development proce
 Finally, I’m particularly interested in engaging more with the larger developer community. This could involve attending conferences, contributing to open source projects, or even representing our company at industry events. Sharing knowledge and staying connected with the latest industry trends will not only benefit me professionally but also bring new insights and innovations back to our team.
 
 Overall, I am excited about the opportunity to take on a leadership role and to use it to drive both personal growth and the success of our team and projects.
+
+
+#Interviewer Perspective
+
+### Interviewer Perspective
+
+If I were the only interviewer and had a strong feeling that the candidate is not a fit despite perfect answers, I would:
+
+1. **Acknowledge Bias**: Recognize that my feelings might be subjective and ensure they don't unduly influence my decision.
+2. **Review Criteria**: Compare the candidate’s qualifications and responses against the job requirements and project needs objectively.
+3. **Document Concerns**: Write down why I feel the candidate may not be a fit, ensuring that my reasons are based on objective observations.
+4. **Culture Fit Consideration**: Reflect on whether the candidate aligns with the company's values and team dynamics.
+5. **Make an Informed Decision**: Based on objective criteria and documented concerns, make a well-rounded decision while being aware of my personal biases.
+
+This approach balances my personal feelings with the reality of the candidate’s qualifications.
+
+### Candidate Perspective
+
+As a candidate, I would:
+
+1. **Stay Professional**: Understand that sometimes subjective feelings play a role.
+2. **Request Feedback**: Politely ask for feedback to improve for future opportunities.
+3. **Reflect and Grow**: Use the feedback to better prepare for the next interviews.
+4. **Stay Positive**: Keep a positive outlook and continue searching for the right fit.
