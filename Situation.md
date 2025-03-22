@@ -36,8 +36,6 @@ This answer not only lists various strategies but also explains their significan
 
 # **Team Motivation:**
 
-As an interviewer, it's important to look for how the candidate understands the dynamics of team motivation and their approach to maintaining it. Here’s an example of how you might frame your question and what you might be looking for:
-
 **Question:**
 "Motivation plays a crucial role in the success of a team. Could you describe some strategies you have used in the past to keep your team motivated, and explain why you believe these strategies are important?"
 
