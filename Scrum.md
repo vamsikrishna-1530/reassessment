@@ -128,9 +128,9 @@ Kanban is a **visual workflow management framework** designed to improve efficie
 Would you like real-world use cases or implementation guidance for your team? 🚀
 
 
-### **Understanding Scrum Concepts: Capacity, Velocity, and Estimation Techniques**  
+# **Understanding Scrum Concepts: Capacity, Velocity, and Estimation Techniques**  
 
-#### **1️⃣ Capacity in Scrum**
+## **1️⃣ Capacity in Scrum**
 Capacity refers to the **team's availability and workload handling ability** during a sprint. It is measured in:  
 - **Hours** (total available working hours of team members).  
 - **Story points** (if using relative estimation).  
@@ -146,7 +146,7 @@ Capacity refers to the **team's availability and workload handling ability** dur
 
 ---
 
-#### **2️⃣ Velocity in Scrum**
+## **2️⃣ Velocity in Scrum**
 Velocity is the **average amount of work a team completes per sprint** (measured in story points).  
 
 🔹 **How to Calculate Velocity?**  
@@ -160,7 +160,7 @@ Velocity is the **average amount of work a team completes per sprint** (measured
 
 ---
 
-#### **3️⃣ Estimation Techniques in Scrum**
+# **3️⃣ Estimation Techniques in Scrum**
 Estimations help teams **assess the effort needed** for tasks. Common techniques include:  
 
 🔹 **1. Planning Poker** (Most Popular)  
