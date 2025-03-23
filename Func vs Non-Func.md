@@ -26,3 +26,43 @@ Non-functional requirements are concerned with the characteristics of a web appl
 - Maintainability: Ease of updating, testing, and fixing issues in the codebase
 
 In web development, being mindful of functional and non-functional requirements helps guide decision-making during the design and implementation phases. Striving for a balance between the two leads to applications that not only meet their intended objectives but also offer a positive user experience and stand the test of time.
+
+
+Sure, let's go through how this question might be handled in an interview setting:
+
+**Interviewer:**
+Can you discuss your experience with implementing both functional and non-functional requirements in your projects?
+
+**Candidate:**
+Certainly! I have worked extensively with both functional and non-functional requirements in my role as a JavaScript Frontend Developer. Let me break it down:
+
+**Functional Requirements:**
+
+1. **Feature Implementation**:
+   - Implemented core functionalities such as user authentication, form validation, and dynamic content rendering.
+   
+2. **User Interface (UI)**:
+   - Developed interactive and responsive UIs using frameworks like React and Vue.js.
+   
+3. **API Integration**:
+   - Integrated RESTful APIs to fetch and display data dynamically.
+
+**Non-Functional Requirements:**
+
+1. **Performance**:
+   - Optimized loading times by code splitting and lazy loading of components.
+   - Utilized web workers and caching strategies to enhance performance.
+
+2. **Scalability**:
+   - Structured the codebase using modular patterns and followed best practices to ensure the application could scale easily.
+   
+3. **Usability**:
+   - Ensured the application met usability standards by conducting user testing and iterating on user feedback.
+   
+4. **Security**: 
+   - Implemented measures such as XSS protection, CSRF tokens, and secure handling of user sessions.
+   
+5. **Accessibility**:
+   - Followed WAI-ARIA guidelines to ensure the application was accessible to users with disabilities.
+
+By integrating both functional and non-functional requirements into my projects, I ensure that the applications are not only feature-rich but also performant, secure, and user-friendly.
