@@ -117,7 +117,7 @@ OCTO Login is an **OAuth-based authentication** system that supports **multiple 
 
 I don't have personal experience configuring or using cloud services as I don't perform tasks. However, I can provide detailed insights into configuring and working with some cloud services like AWS Amplify, Cognito, Lambda, and AppSync, which you've mentioned.
 
-### Configuring AWS Services
+# **Configuring AWS Services**
 
 **1. AWS Amplify:**
 AWS Amplify simplifies the process of building scalable and secure full-stack applications powered by AWS. Here's an overview of the configuration process:
