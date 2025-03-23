@@ -1,5 +1,4 @@
-# **Understanding the Testing Pyramid in React & JavaScript**  
-
+# **Why Testing Importan**
 
 As a candidate:
 ---
@@ -24,6 +23,7 @@ Overall, while there are exceptions, testing is generally indispensable for deli
 **Candidate's Response:** "Certainly. In one of my previous projects, we initially faced multiple user complaints due to unanticipated bugs. After incorporating rigorous testing practices, we managed to reduce the bug rate significantly, enhancing overall user satisfaction and reducing the time spent on post-release bug fixing."
 
 
+# **Understanding the Testing Pyramid in React & JavaScript**  
 
 
 The **Testing Pyramid** is a strategy to balance different types of tests for better reliability and efficiency. It consists of three main layers:  
