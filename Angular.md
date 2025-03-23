@@ -108,3 +108,17 @@ To reach an **intermediate level** in Angular 16, here are additional key areas 
 ✅ **Service Workers** → Enabling offline support.  
 ✅ **Caching Strategies** → Using Workbox for better performance.  
 ✅ **Push Notifications** in Angular apps.  
+
+
+# Interviewer: **Can you explain whether Angular follows the MVC pattern?**
+
+### Candidate:
+Sure, Angular does not strictly follow the MVC (Model-View-Controller) pattern in a traditional sense. Instead, Angular follows a component-based architecture. 
+
+- **Component-Based Architecture**: Angular breaks the user interface into smaller, reusable components rather than following the traditional MVC pattern.
+
+- **Services and Dependency Injection**: Angular uses services to manage business logic and data communication, which can be injected into components as needed.
+
+- **Modules**: Angular applications are organized into modules, which help in structuring the application at a higher level.
+
+While it incorporates elements similar to the MVC pattern such as separation of concerns, Angular's approach is more flexible and modern by focusing on components and services.
