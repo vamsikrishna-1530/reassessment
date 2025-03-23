@@ -14,7 +14,7 @@ Node.js is a **JavaScript runtime** built on the **V8 engine** (the same engine 
 
 ---
 
-**Interviewer:**
+# **Process and Thread:**
 Can you explain the difference between a process and a thread in Node.js?
 
 ---
@@ -37,6 +37,86 @@ Sure! Here are the main differences between a process and a thread in Node.js:
 5. **Lightweight**: Creating and managing threads is less resource-intensive compared to processes, but it comes with the complexity of managing concurrency issues.
 
 In summary, processes are independent and more isolated, suitable for running separate tasks, while threads are lightweight and share memory within the same process, ideal for parallel tasks within the same application.
+
+# **Load Balancer:**
+Alright, let’s talk about load balancers. Can you explain what a load balancer is and how you might configure and use it in a Node.js project?
+
+**Candidate:**
+Sure! A load balancer distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed. This helps improve the responsiveness and availability of our application. There are different types of load balancers, including hardware and software-based, as well as different methods of load balancing, like round-robin, least connections, and IP hash.
+
+In the context of a Node.js project, here’s how we might configure and use a load balancer:
+
+1. **Choose a Load Balancer Service:**
+   - We can use cloud-based services like AWS Elastic Load Balancing, Google Cloud Load Balancing, or Azure Load Balancer.
+   - Alternatively, we can use an open-source load balancer like NGINX or HAProxy.
+
+2. **Setup and Configuration:**
+   - **For NGINX:**
+     1. **Install NGINX:** We can install it using `sudo apt-get install nginx` on Linux.
+     2. **Configure NGINX:** We need to update the NGINX configuration file, usually located at `/etc/nginx/nginx.conf` or create a new configuration file in the `/etc/nginx/sites-available/` directory.
+   
+     ```nginx
+     http {
+         upstream nodejs_servers {
+             server 127.0.0.1:3000;
+             server 127.0.0.1:3001;
+             server 127.0.0.1:3002;
+         }
+
+         server {
+             listen 80;
+
+             location / {
+                 proxy_pass http://nodejs_servers;
+                 proxy_set_header Host $host;
+                 proxy_set_header X-Real-IP $remote_addr;
+                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                 proxy_set_header X-Forwarded-Proto $scheme;
+             }
+         }
+     }
+     ```
+
+3. **Start the Load Balancer:**
+   - If we are using NGINX, we can start it using `sudo service nginx start`.
+
+4. **Run Multiple Node.js Instances:**
+   - We need to run multiple instances of our Node.js application. This can be done manually, or we can use tools like PM2 to manage the process.
+   
+   ```bash
+   pm2 start app.js --name "app" -i max
+   ```
+
+5. **Test the Setup:**
+   - We can test by accessing our application in the browser and observing that requests are being distributed across multiple Node.js instances.
+
+This helps in ensuring high availability and balancing the load, preventing any single server instance from becoming a bottleneck.
+
+**Interviewer:**
+Great explanation! That covers the basics nicely. How would you handle session management in this load-balanced setup?
+
+**Candidate:**
+Good question! In a load-balanced setup, we need to ensure that sessions are maintained across different server instances. Here are a few ways to handle session management:
+
+1. **Sticky Sessions:** Also known as session persistence, where the load balancer routes a user’s requests to the same server based on a session cookie.
+   
+2. **Centralized Session Store:** Using a shared session store like Redis or a database, where all server instances read from and write to the same session store.
+
+    - For example, we can use `connect-redis` with `express-session` in Node.js:
+    
+        ```javascript
+        const session = require('express-session');
+        const RedisStore = require('connect-redis')(session);
+
+        app.use(session({
+            store: new RedisStore({ host: 'localhost', port: 6379 }),
+            secret: 'your-secret-key',
+            resave: false,
+            saveUninitialized: false
+        }));
+        ```
+
+These approaches help maintain session consistency across multiple servers, providing a seamless experience for users.
 
 # **2. Node.js Event Loop (Deep Dive)**
 ### **2.1 What is the Event Loop?**  
