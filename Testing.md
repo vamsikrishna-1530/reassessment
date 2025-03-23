@@ -2,6 +2,16 @@
 
 The **Testing Pyramid** is a strategy to balance different types of tests for better reliability and efficiency. It consists of three main layers:  
 
+        /\
+       /  \
+      /    \
+     / E2E  \    (10%)
+    /--------\
+   /   Integration \ (20%)
+  /------------------\
+ /       Unit        \  (70%)
+/______________________\
+
 1️⃣ **Unit Tests** – Test individual functions or components in isolation.  
 2️⃣ **Integration Tests** – Test how different parts of the application work together.  
 3️⃣ **End-to-End (E2E) Tests** – Simulate real user interactions across the whole app.  
