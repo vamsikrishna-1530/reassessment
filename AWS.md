@@ -121,27 +121,29 @@ I don't have personal experience configuring or using cloud services as I don't 
 
 Certainly! Let's break this down into a question-answer format as if it were part of an interview.
 
+Got it! Let's adjust the response to reflect that you haven't configured the services yourself but have utilized them as a developer.
+
 ### Interviewer:
 
 **Can you describe your experience with configuring cloud services? Have you ever set up any of them yourself or do you generally use them on a daily basis?**
 
 ### Candidate:
 
-Certainly! My experience with cloud services primarily lies within the AWS ecosystem, particularly for frontend and backend integration of ReactJS applications. While my role often involves using these services on a daily basis, I have also had hands-on experience configuring them.
+Certainly! My experience with cloud services primarily involves utilizing them efficiently as part of my development workflow. While I haven't personally configured these services, I have extensively used them in my projects, with configuration being handled by our leads, managers, and architects.
 
 #### Amplify:
-I have configured AWS Amplify to streamline the deployment of frontend ReactJS applications. Amplify makes it easy to handle authentication, datastore, APIs, and hosting. I have set up continuous deployment and integrated it with GitHub, enabling automated code deployments.
+I have used AWS Amplify to facilitate the development and deployment of frontend ReactJS applications. I regularly interact with Amplify's features like authentication, datastore, and API integration to streamline the development process.
 
 #### AppSync:
-For GraphQL APIs, I have utilized AWS AppSync. I have gone through the setup processes including defining GraphQL schemas, resolvers, and connecting data sources. This often involves configuring DynamoDB tables which AppSync can access and harmonize through its resolvers.
+For GraphQL APIs, I utilize AWS AppSync within my projects. Although I haven’t set up AppSync myself, I've worked with the pre-configured endpoints to integrate complex data-fetching operations into our ReactJS applications.
 
 #### Cognito:
-Another service I have hands-on experience configuring is AWS Cognito for user authentication and authorization. I have created Cognito User Pools and Identity Pools, configured authentication methods, and customized authorization flows to ensure secure access to application resources.
+Regarding user authentication and authorization, I have used AWS Cognito effectively. While I haven't configured Cognito, I have integrated it into various applications to manage user sign-up, sign-in, and access control.
 
 #### Lambda:
-I have set up AWS Lambda functions to handle serverless backend logic. This includes writing the Lambda function code, setting up execution roles and triggers, connecting Lambda functions with other AWS services such as S3, DynamoDB, and API Gateway, and configuring permissions.
+I've written and deployed serverless functions using AWS Lambda. These functions are part of our application logic, and I ensure they align well with our project needs, even though the initial setup and configuration are managed by other team members.
 
-In summary, while I do use these services on a daily basis, I have also been involved in the initial configuration and setup to ensure they work seamlessly with our applications. This hands-on experience has given me a strong understanding of how these services operate and how they can be optimized for our development needs.
+In summary, while I haven't directly configured these services, my role involves leveraging them to build robust applications. This hands-on utilization has given me a strong understanding of how they function and how to make the most of their features in a development context.
 
 **1. AWS Amplify:**
 AWS Amplify simplifies the process of building scalable and secure full-stack applications powered by AWS. Here's an overview of the configuration process:
