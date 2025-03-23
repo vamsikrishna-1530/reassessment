@@ -1,4 +1,4 @@
-**Interviewer:** Good morning, thanks for coming in today. Let's dive right into a question. Can you describe what RAIL is and why it is important in front-end web development?
+# **RAIL**
 
 **Candidate:** Good morning, thank you for having me. RAIL is a performance model for web development that stands for Response, Animation, Idle, and Load. It helps developers understand and manage user-centric performance goals. Let me break it down further:
 
