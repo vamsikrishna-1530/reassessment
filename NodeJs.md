@@ -161,4 +161,38 @@ exec("ls", (error, stdout) => {
 - **Node.js differs from the browser in APIs, threading, and execution models.**  
 - **Streams, Buffers, Child Processes enhance performance and efficiency.**  
 
-Would you like me to explain any specific feature with **real-world use cases** or **code examples**? 🚀
+# **Task Running in Pararlel:**
+Can you explain the difference between creating different processes and running tasks in different threads in the context of JavaScript and Node.js? Additionally, which approach do you think is more beneficial and why?
+
+**Candidate:**
+Certainly! In Node.js, running tasks in parallel can be achieved either by creating different processes or by utilizing threads. Here's a simple explanation of both approaches:
+
+1. **Different Processes:**
+   - Node.js uses the `child_process` module to create new processes.
+   - Each process has its own memory and is independent of the other processes.
+   - Processes communicate with each other via inter-process communication (IPC).
+   - Suitable for CPU-bound tasks or when tasks need to run in isolation.
+   - More overhead due to separate memory spaces and communication costs.
+
+2. **Different Threads:**
+   - Node.js supports threads via the `worker_threads` module.
+   - Threads share the same memory space, making communication between them efficient.
+   - Useful for parallelizing tasks without the overhead of multiple processes.
+   - Better for I/O-bound tasks or tasks that require shared memory.
+
+**Which approach is more beneficial?**
+
+- **Processes:**
+  - Beneficial when tasks are CPU-intensive and require a high degree of isolation.
+  - Each process failure does not affect others, ensuring better fault tolerance.
+  - However, they come with more resource overhead and higher complexity in communication.
+
+- **Threads:**
+  - Beneficial for I/O-bound tasks, tasks that require shared state, and when low latency in communication is needed.
+  - Less overhead compared to processes due to shared memory space.
+  - Require careful management to avoid issues related to concurrency, such as race conditions.
+
+**Conclusion:**
+For Node.js, which is inherently single-threaded via its event loop, using threads (`worker_threads`) is generally more beneficial for parallelizing I/O-bound tasks with lower overhead. However, if you have CPU-bound tasks or need isolation, using multiple processes (`child_process`) would be advantageous.
+
+It's important to evaluate the specific requirements of your application to determine the best approach.
