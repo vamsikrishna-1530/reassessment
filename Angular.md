@@ -122,3 +122,32 @@ Sure, Angular does not strictly follow the MVC (Model-View-Controller) pattern i
 - **Modules**: Angular applications are organized into modules, which help in structuring the application at a higher level.
 
 While it incorporates elements similar to the MVC pattern such as separation of concerns, Angular's approach is more flexible and modern by focusing on components and services.
+
+
+# Interviewer: **which design patterns are widely used in Angular?**
+
+### Candidate:
+Sure, there are several design patterns commonly used in Angular development:
+
+1. **Component-based Architecture:**
+   Angular applications are built using a component-based approach, where each UI element and its corresponding logic are encapsulated within a component. This promotes reusability and maintainability.
+
+2. **Dependency Injection (DI):**
+   Angular has built-in support for dependency injection, which allows developers to manage dependencies efficiently. Services can be injected into components, directives, and other services to share functionality.
+
+3. **Observable Pattern:**
+   Angular leverages RxJS and Observables for handling asynchronous operations and event streams, making it easy to manage and subscribe to data changes over time.
+
+4. **Singleton Pattern:**
+   Services in Angular typically follow the singleton pattern by default, where a single instance of the service is shared across the application, ensuring consistent state and behavior.
+
+5. **Facade Pattern:**
+   The facade pattern is used to simplify complex interactions between multiple services or components. It provides a unified interface to a set of interfaces in a subsystem, making it easier for clients to interact with the subsystem.
+
+6. **State Management:**
+   Patterns like Redux or NgRx are used for state management in Angular applications, providing a predictable state management system based on unidirectional data flow.
+
+7. **Template Pattern:**
+   Angular's templates allow developers to define the view layout and bind data dynamically using expressions, directives, and components.
+
+Each of these design patterns helps in building scalable, maintainable, and efficient Angular applications.
