@@ -14,6 +14,30 @@ Node.js is a **JavaScript runtime** built on the **V8 engine** (the same engine 
 
 ---
 
+**Interviewer:**
+Can you explain the difference between a process and a thread in Node.js?
+
+---
+
+**Candidate:**
+Sure! Here are the main differences between a process and a thread in Node.js:
+
+**Process:**
+1. **Independent Execution**: A process is an independent entity that runs in its own memory space.
+2. **Multiple Processes**: Node.js applications can spawn multiple processes using the `child_process` module.
+3. **Isolation**: Processes are isolated from each other. Each process has its own memory heap and cannot directly share data.
+4. **Communication**: Communication between processes is achieved through inter-process communication (IPC), such as message passing.
+5. **Heavyweight**: Creating a process is more resource-intensive as compared to a thread because it involves more overhead.
+
+**Thread:**
+1. **Execution Unit**: A thread is a unit of execution that runs within the context of a process.
+2. **Single Threaded Model**: Node.js primarily uses a single-threaded, event-driven model. The main event loop runs in a single thread.
+3. **Multiple Threads**: Node.js can utilize worker threads (since Node.js v10.5.0 and stable in v12.0.0) to provide a way to run JavaScript in parallel.
+4. **Shared Memory**: Threads can share the memory within the same process, making data exchange between threads faster but needing synchronization to avoid conflicts.
+5. **Lightweight**: Creating and managing threads is less resource-intensive compared to processes, but it comes with the complexity of managing concurrency issues.
+
+In summary, processes are independent and more isolated, suitable for running separate tasks, while threads are lightweight and share memory within the same process, ideal for parallel tasks within the same application.
+
 # **2. Node.js Event Loop (Deep Dive)**
 ### **2.1 What is the Event Loop?**  
 The **Event Loop** is the core mechanism that allows Node.js to handle **asynchronous** operations efficiently despite being **single-threaded**.  
