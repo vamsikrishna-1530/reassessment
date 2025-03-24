@@ -27,20 +27,6 @@ Got it! Here’s a **detailed explanation** of class-based components and their 
 
 ---
 
-## **Class-Based Components in React**  
-
-### **1. What Are Class-Based Components?**  
-Class-based components were the primary way to handle **state** and **lifecycle methods** in React before functional components and Hooks were introduced in React 16.8.  
-
-- They use the ES6 `class` syntax and extend `React.Component`.  
-- They manage component **state** using `this.state`.  
-- They allow access to **lifecycle methods**, which control how the component behaves when mounted, updated, or unmounted.  
-- Unlike functional components, class components require explicit binding for event handlers when using `this`.  
-
-Although **functional components with Hooks** have replaced class components in most modern applications, understanding them is crucial for working with older React codebases.  
-
----
-
 ## **2. React Lifecycle Methods in Class Components**  
 
 Every class component goes through **three main phases** in its lifecycle:  
