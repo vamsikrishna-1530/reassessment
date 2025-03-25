@@ -300,3 +300,33 @@ Certainly! In Node.js, running tasks in parallel can be achieved either by creat
 For Node.js, which is inherently single-threaded via its event loop, using threads (`worker_threads`) is generally more beneficial for parallelizing I/O-bound tasks with lower overhead. However, if you have CPU-bound tasks or need isolation, using multiple processes (`child_process`) would be advantageous.
 
 It's important to evaluate the specific requirements of your application to determine the best approach.
+
+### **2. Multiprocessing**
+- Uses multiple **processes**, each with its own memory space.
+- More resource-intensive due to separate memory allocation.
+- No **race conditions** since processes don’t share memory.
+- **Slower inter-process communication (IPC)** compared to multithreading.
+- Used for **CPU-bound** tasks like video rendering, large-scale computations, and parallel processing.
+
+✅ **Best for:**
+- Machine learning, data science, and CPU-intensive tasks (e.g., Python multiprocessing, Java fork/join)
+- Running isolated tasks in parallel (e.g., microservices)
+
+❌ **Not ideal for:**
+- I/O-heavy tasks since process creation and communication add overhead.
+
+---
+
+## **Which is better?**
+| Feature  | Multithreading | Multiprocessing |
+|----------|---------------|----------------|
+| **Best for** | I/O-bound tasks | CPU-bound tasks |
+| **Memory Usage** | Shared memory (efficient but risky) | Separate memory (safe but heavy) |
+| **Speed** | Faster context switching | Slower due to process creation |
+| **Use Cases** | Web servers, UI applications, API requests | Machine learning, video processing, scientific computing |
+
+👉 **Conclusion**
+- **Use multithreading** if you need efficient I/O handling (e.g., web servers, chat applications).
+- **Use multiprocessing** for computational tasks where CPU is the bottleneck (e.g., deep learning, image processing).
+
+Would you like some practical examples in JavaScript or Python? 🚀
