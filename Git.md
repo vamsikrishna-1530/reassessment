@@ -191,4 +191,17 @@ This lets you modify the last **3 commits** before pushing to a shared branch.
 ✅ **Rebase** when working solo for a cleaner commit history.  
 ✅ Avoid **rebasing shared branches**, as it rewrites history!  
 
-Would you like a **real-world branching strategy example** for a React project? 🚀
+# **git stash:**
+Can you explain what the `git stash` command does and provide a scenario where it might be useful?
+
+**Candidate:**
+Certainly! The `git stash` command is used to save the current state of your working directory and the index without committing them. This means your changes are "stashed" away, allowing you to revert to a clean working directory. You can later reapply those changes or discard them.
+
+A typical scenario where `git stash` is useful is when you're working on a feature or bug fix and suddenly need to switch to a different branch to address a critical issue. Instead of committing incomplete work, you can stash your changes:
+
+1. **Stash the changes:** `git stash`
+2. **Switch to the critical branch:** `git checkout critical-issue-branch`
+3. **Work on the critical issue, commit your changes, and then return to your original branch.**
+4. **Reapply your stashed changes:** `git stash apply`
+
+This allows for a flexible and clean workflow without committing partial work.
