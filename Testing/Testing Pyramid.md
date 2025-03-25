@@ -49,6 +49,40 @@ The **Testing Pyramid** is a strategy to balance different types of tests for be
 - Ensures that **small pieces of code work correctly**.  
 - **Fast and cheap** to run.  
 
+### **4. Best Practices for Unit Testing (F.I.R.S.T Principles in JavaScript & ReactJS)**  
+
+The **F.I.R.S.T** principles ensure that unit tests are effective:  
+
+- **Fast** – Tests should run quickly to avoid slowing down development.  
+- **Isolated** – Each test should be independent and not rely on other tests.  
+- **Repeatable** – Tests should always produce the same results.  
+- **Self-validating** – The test should clearly pass or fail without needing manual checks.  
+- **Timely** – Tests should be written as part of the development process (TDD if possible).  
+
+#### **Example of a Well-Designed Unit Test in React**  
+```javascript
+import { render, screen } from '@testing-library/react';
+import Button from './Button';
+
+test('button renders with correct text', () => {
+  render(<Button text="Click Me" />);
+  expect(screen.getByText('Click Me')).toBeInTheDocument();
+});
+```  
+
+##### **Pros & Cons**  
+✅ **Pros:**  
+- Catches bugs early before production.  
+- Encourages modular and reusable code.  
+- Speeds up debugging.  
+
+❌ **Cons:**  
+- Writing effective tests requires experience.  
+- Can be time-consuming if not automated properly.  
+
+---
+
+
 ✅ **Example Tools:** Jest (for JavaScript), React Testing Library (for React).  
 ✅ **Best for:** Testing pure functions, UI components, and service functions.  
 
