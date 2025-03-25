@@ -243,4 +243,32 @@ function goodAsyncFunction() {
 ✅ **Always handle rejections** to avoid unhandled errors.  
 ✅ **Prefer Async/Await for readability** but use Promises for parallel execution.  
 
-Would you like **real-world use cases** for Promises in APIs or microservices? 🚀
+
+# **Observables:**
+1. **Definition:** Observables are a part of the RxJS library, which stands for Reactive Extensions for JavaScript. They allow us to work with asynchronous data streams.
+2. **Functionality:** Observables emit multiple values over time. You can subscribe to an Observable to listen and react to these values as they are emitted.
+3. **Operators:** They come with a set of powerful operators to transform, filter, and combine such data streams.
+
+**Comparison between Promises and Observables:**
+
+1. **Single vs Multiple Emissions:**
+   - **Promises:** They handle a single asynchronous event. Once a Promise resolves or rejects, it can't be reused or emit more values.
+   - **Observables:** They can emit multiple values over time (like streams).
+
+2. **Lazy vs Eager:**
+   - **Promises:** They are eager, meaning they start executing right away even if you do not attach any `.then()` handlers.
+   - **Observables:** They are lazy; nothing happens until you subscribe to them. They won't start emitting values until a subscription is made.
+
+3. **Cancellation:**
+   - **Promises:** They don't have built-in cancellation; once started, they run to completion.
+   - **Observables:** They can be cancelled by unsubscribing, which stops the execution of the underlying operation.
+
+4. **Operators:**
+   - **Promises:** They have limited operators like `.then()` and `.catch()`.
+   - **Observables:** They offer a rich set of operators (map, filter, reduce, etc.) via RxJS, making them very powerful for handling complex asynchronous scenarios.
+
+5. **Performance:**
+   - **Promises:** Simpler and generally more lightweight for single async operations.
+   - **Observables:** More complex and powerful, useful for handling multiple values over time or complex sequences of events.
+
+In summary, while Promises are great for handling a single asynchronous event, Observables provide a more powerful abstraction for handling streams of data and complex async logic.
