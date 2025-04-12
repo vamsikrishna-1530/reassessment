@@ -1,13 +1,6 @@
-Sure! Here's a **technical interview question** about **SOLID principles**, along with a **strong answer** you'd give as a **candidate** applying for a frontend role using TypeScript, Next.js, etc.
 
----
+# **“Can you explain the SOLID principles and how you’ve applied them in your frontend projects?”**
 
-### 🎯 **Interview Question:**  
-**“Can you explain the SOLID principles and how you’ve applied them in your frontend projects?”**
-
----
-
-### 🧑‍💼 **Candidate Answer:**
 
 > Absolutely. The **SOLID principles** are a set of five object-oriented design principles that help write maintainable, scalable, and testable code. Even in frontend projects—especially with **TypeScript** and component-based architectures like **React/Next.js**—they’re very applicable. Let me briefly go through them and share where I've applied them:
 >
