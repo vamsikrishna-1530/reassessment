@@ -1,9 +1,4 @@
-Absolutely! Here's a strong, structured **interview-style answer** to:
-
----
-
-**🧑‍💼 Interviewer:**  
-*Can you explain the differences between SSR, CSR, SSG, and ISR in Next.js or React?*
+# *Can you explain the differences between SSR, CSR, SSG, and ISR in Next.js or React?*
 
 ---
 
