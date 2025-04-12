@@ -16,6 +16,3 @@ Certainly! Here's how you can answer **"Can you explain how you’ve implemented
 >
 > Overall, this made the form not just accessible for users with disabilities, but also more usable and robust for everyone. And since the role I’m applying for is customer-facing, I believe accessibility is a critical aspect of delivering high-quality, inclusive experiences.
 
----
-
-Would you like more example answers like this for other areas (like performance, testing, CI/CD, or design system usage)?
