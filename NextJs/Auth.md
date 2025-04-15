@@ -14,6 +14,7 @@
 ### ✅ **2. How would you manage sessions in a Next.js app?**
 
 > Session management in Next.js typically involves storing and validating a token (like a JWT) or using a session object backed by cookies. For secure handling, **HTTP-only cookies** are preferred because they are not accessible via JavaScript and reduce XSS risks.
+> XSS, or Cross-Site Scripting, is a type of security vulnerability where an attacker injects malicious scripts into content that is then executed in the browser of another user. This can lead to serious consequences like data theft, session hijacking, or unauthorized actions on behalf of the user.
 >
 > On the server side, sessions are usually validated during SSR or API requests. Libraries like `next-auth` or `iron-session` can abstract session handling by securely serializing session data into cookies.
 
