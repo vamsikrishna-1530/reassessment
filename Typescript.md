@@ -55,18 +55,43 @@ Great! Here are some common and strong **TypeScript interview questions** with w
 
 ### ✅ **5. Can you explain some commonly used Utility Types in TypeScript?**
 
-> Yes, I regularly use built-in utility types like:
->
-> - `Partial<T>` – makes all properties optional. Useful for forms.
-> - `Pick<T, K>` – picks only specific keys.
-> - `Omit<T, K>` – removes certain keys.
-> - `Record<K, T>` – great for mapping keys to types.
->
-> Example:
-> ```ts
-> type User = { id: number; name: string; email: string };
-> type UserPreview = Pick<User, 'id' | 'name'>;
-> ```
+Absolutely. Utility types in TypeScript are powerful built-in generic types that help us transform and manipulate existing types to create new ones. They make type definitions more expressive and reusable, which is especially valuable in large-scale applications. Here are the most commonly used utility types and what they do:
+
+1. **Partial** – Converts all properties of a given type to optional. This is useful when dealing with update operations or partial configurations.
+
+2. **Required** – Opposite of `Partial`, it makes all properties mandatory, which helps enforce strictness in data structures where every field must be present.
+
+3. **Readonly** – Makes all properties immutable. This is particularly helpful in state management where we want to prevent unintended mutations.
+
+4. **Pick** – Creates a new type by selecting specific properties from an existing type. Ideal when we need only a subset of data, like projecting certain fields in a response.
+
+5. **Omit** – The inverse of `Pick`. It excludes certain properties from a type. Useful when we want to reuse a type but remove sensitive or unnecessary fields.
+
+6. **Record** – Constructs a type with a set of keys mapped to a specific value type. It’s often used to build dictionaries or key-value maps.
+
+7. **Exclude** – Removes types from a union that are assignable to another type. Helps with type filtering and narrowing.
+
+8. **Extract** – The opposite of `Exclude`, it pulls out types from a union that match a certain type. Useful for refining or selecting specific variants.
+
+9. **NonNullable** – Removes `null` and `undefined` from a type. It ensures the type always has a defined, non-null value.
+
+10. **ReturnType** – Infers the return type of a function. This helps in strongly typing results, especially when working with callbacks or async functions.
+
+11. **Parameters** – Extracts the types of a function’s parameters as a tuple. It’s useful for wrapping or reusing function signatures.
+
+12. **ConstructorParameters** – Similar to `Parameters`, but for class constructors. Helps in scenarios involving dependency injection or mocking.
+
+13. **InstanceType** – Retrieves the instance type from a class constructor. It’s useful when we want to work with objects derived from a class in a generic way.
+
+14. **ThisType** – Provides a way to explicitly define the type of `this` in object literals or context-specific logic. Often used in advanced scenarios like mixins.
+
+---
+
+**Closing Statement:**
+
+In summary, utility types are essential tools that boost code maintainability, type safety, and scalability. I frequently use them in my TypeScript projects to write cleaner, more predictable, and DRY code, especially when working with component props, API contracts, or dynamic configurations.
+
+Let me know if you'd like me to elaborate on when I used a specific utility type in a real-world project.``
 
 ---
 
